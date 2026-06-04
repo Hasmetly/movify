@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <style>
+        body {
+            font-family: "Arial";
+        }
+    </style>
+    <script type="text/javascript">
+    window.awsWafCookieDomainList = [];
+    window.gokuProps = {
+"key":"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEvKivSoJ72t253HoYOCvuCAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM0xYt13wZqQkyVELDAgEQgDtPfguXfrW/3j0QB+ByxHZGZBEJ6Kw9W6AvJOCdzhuK+chZE4YCO34Yn3RT7HUEVuM1dyxhftNk5kJgfA==",
+          "iv":"CgAH9jKweAAAAfjL",
+          "context":"qVLxN7BV5raL/zD6Hh2ZN8gvhyO6hgr0qWKfaKtyMPKnAqTmvMZbHQYxKjM82ziZvCTlDxUuUYZZXEWTYtZbeTID2lkexc/Qa8vB8QEoEiJrZxu84ISOR1txPkEn5cwrEmL4SwOYsPyTIY13kDGqeZ6PFgOCZcvJXx6sjLlxFKfQsnhks7HcDn+MgK/dR4bmfW3XtNVb9JT8BxubC34ttC7otGi8tsZMAPNL+noiJQuHkXM/ZPjjhMIwF1hzsiAZc7NsU4roIjISxUfaa6cx2AKXjTP8coPsbBMmJ+e172RCl1MWuLxfOWY9ezIsIh2ZDU0tqFWNFQccF40AWJc4AZG6jsLhb7z4KHWWJnGBbIuqR0SZyWWAsdBz"
+};
+    </script>
+    <script src="https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/challenge.js"></script>
+</head>
+<body>
+    <div id="challenge-container"></div>
+    <script type="text/javascript">
+        AwsWafIntegration.saveReferrer();
+        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {
+            if (forceRefresh) {
+                AwsWafIntegration.forceRefreshToken().then(() => {
+                    window.location.reload(true);
+                });
+            } else {
+                AwsWafIntegration.getToken().then(() => {
+                    window.location.reload(true);
+                });
+            }
+        });
+    </script>
+    <noscript>
+        <h1>JavaScript is disabled</h1>
+        In order to continue, we need to verify that you're not a robot.
+        This requires JavaScript. Enable JavaScript and then reload the page.
+    </noscript>
+</body>
+</html>
